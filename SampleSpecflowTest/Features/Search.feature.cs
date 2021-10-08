@@ -117,6 +117,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 10
  testRunner.Then("I verify result statistics are displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
+#line 11
+ testRunner.Then("I close the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

@@ -8,3 +8,4 @@ Scenario: Search for a keyword
 	Then I type in keyword
 	Then I press Enter
 	Then I verify result statistics are displayed
+	Then I close the browser

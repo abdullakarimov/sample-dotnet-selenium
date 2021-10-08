@@ -102,5 +102,11 @@ namespace SampleSpecflowTest.Steps
             Assert.That(resultStats.Text.Contains("results"));
         }
 
+        [Then("I close the browser")]
+        public void ThenCloseBrowser()
+        {
+            driver.Quit();
+        }
+
     }
 }
