@@ -1,5 +1,5 @@
 ﻿Feature: Search
-	Simple calculator for adding two numbers
+	Simple search engine usage
 
 @web
 Scenario: Search for a keyword
